@@ -47,7 +47,7 @@ public class BaseMethods {
                 .path("id").toString();
     }
 
-    @Step("Удаление курьера по ID")
+    @Step("Удаление курьера по id")
     public void deleteCourier(String id) {
         RestAssured.given()
                 .contentType("application/json")

@@ -29,7 +29,7 @@ public class CourierApiTest {
     }
 
     @After
-    @Step("Удаление тестового курьера")
+    @Step("Удаление тестового курьерра")
     public void tearDown() {
         if (courierId != null) {
             courierApiClient.deleteCourier(courierId);

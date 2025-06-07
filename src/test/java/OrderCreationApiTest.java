@@ -12,7 +12,7 @@ public class OrderCreationApiTest extends BaseMethods {
 
     @Test
     @Story("Успешное создание заказа")
-    @Description("Проверка создания заказа и получения трека")
+    @Description("Проверка создания заказа и получения тррека")
     public void testOrderCreation() {
         Response response = sendCreateOrderRequest();
         verifySuccessfulOrderCreation(response);

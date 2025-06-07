@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.*;
 public class ListOrderTest extends BaseMethods {
 
     @Before
-    @Step("Установка базового URL")
+    @Step("Установка URL")
     public void setUp() {
         RestAssured.baseURI = BASE_URL;
     }

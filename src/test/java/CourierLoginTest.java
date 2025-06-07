@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 @Epic("API Scooter")
-@Feature("Авторизация курьера")
+@Feature("Авторизация курьерра")
 public class CourierLoginTest extends BaseMethods {
 
     private String existingLogin = "naruto";

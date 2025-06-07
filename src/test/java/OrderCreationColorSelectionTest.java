@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 @Epic("API Scooter")
-@Feature("Создание заказа")
+@Feature("Создание заказза")
 @RunWith(Parameterized.class)
 public class OrderCreationColorSelectionTest extends BaseMethods {
 
