@@ -10,7 +10,7 @@
 *.iml
 *.ipr
 *.iws
-
+.allure/allure-2.24.0
 
 *.log
 *.tmp
