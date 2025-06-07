@@ -30,7 +30,7 @@ public class BaseMethods {
                 .post(CREATE_COURIER);
     }
 
-    @Step("Получение ID курьера через авторизацию")
+    @Step("Получение id курьера через авторизацию")
     public String getCourierId(String login, String password) {
         return RestAssured.given()
                 .contentType(ContentType.JSON)
